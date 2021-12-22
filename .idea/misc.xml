@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/Desktop/Kotlin/Projects/OMDBApp/app/src/main/res/drawable-v24/ic_cancel.xml" value="0.10555555555555556" />
+        <entry key="..\:/Users/User/Desktop/Kotlin/Projects/OMDBApp/app/src/main/res/drawable/ic_cancel.xml" value="0.10555555555555556" />
         <entry key="..\:/Users/User/Desktop/Kotlin/Projects/OMDBApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/User/Desktop/Kotlin/Projects/OMDBApp/app/src/main/res/layout/fragment_movies.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/User/Desktop/Kotlin/Projects/OMDBApp/app/src/main/res/layout/fragment_movies.xml" value="0.1" />
         <entry key="..\:/Users/User/Desktop/Kotlin/Projects/OMDBApp/app/src/main/res/layout/fragment_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/User/Desktop/Kotlin/Projects/OMDBApp/app/src/main/res/layout/item_movie.xml" value="0.1" />
       </map>
     </option>
   </component>
