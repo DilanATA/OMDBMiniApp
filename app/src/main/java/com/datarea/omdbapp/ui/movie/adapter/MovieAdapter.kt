@@ -11,9 +11,9 @@ import com.datarea.omdbapp.databinding.ItemMovieBinding
 
 class MovieAdapter(
     private val context: Context,
-    private val movieList: ArrayList<Movie>,
+    private var movieList: ArrayList<Movie>,
     private val onClickListener: OnClickListener
-) : RecyclerView.Adapter<MovieAdapter.MovieHolder>() {
+) : RecyclerView.Adapter<MovieAdapter.MovieHolder>(){
 
     inner class MovieHolder(val itemMovieBinding: ItemMovieBinding): RecyclerView.ViewHolder(
         itemMovieBinding.root

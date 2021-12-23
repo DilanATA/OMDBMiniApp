@@ -43,7 +43,7 @@ data class Movie(
     @SerialName("Runtime")
     val Runtime: String? = null,
     @SerialName("Title")
-    val Title: String? = null,
+    var Title: String? = null,
     @SerialName("Type")
     val Type: String? = null,
     @SerialName("Website")
@@ -58,4 +58,8 @@ data class Movie(
     val imdbRating: String? = null,
     @SerialName("imdbVotes")
     val imdbVotes: String? = null
-): Parcelable
+): Parcelable {
+    constructor(name: String?) : this() {
+        this.Title = name
+    }
+}
