@@ -1,24 +1,24 @@
 # OMDBMiniApp
-##MVVM
+## MVVM
 Veri akışını kontrollü bir şekilde sağlaması ve Google tarafından desteklenmesi sebebi ile tercih edildi.
 
-##Android Navigation Component
+## Android Navigation Component
 Sayfa geçişlerinde belirli ilkelere bağlı kalarak kullanıcı deneyimi sunar. Standartlaştırılmış kaynaklar sunması sebebi ile kullanıldı.
 
-##Retrofit
+## Retrofit
 Web servislerden JSON çıktılarını alabilmek için kullanılmıştır.
 
-##Dagger-Hilt Dependency Injection
+## Dagger-Hilt Dependency Injection
 Projedeki manuel oluşacak bağımlılıkları azaltmak için kullanılmıştır.
 
-##Timber
+## Timber
 Log almak için kullanıldı.
 
-##Glide
+## Glide
 Resim urllerini uygulamaya dahil etmek için kullanıldı.
 
-##LiveData
+## LiveData
 Verileri izleyip değişiklikleri gözlemler. Aynı zamanda yaşam döngüsüne bağlıdır.
 
-##Coroutine
+## Coroutine
 Asenkron çalışabilmesi, main thread'i bloklamadan işlem yapılabilmesi için kullanıldı.
